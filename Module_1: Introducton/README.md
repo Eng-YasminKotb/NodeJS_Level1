@@ -30,7 +30,8 @@ comes back.
 - node_module-> This folder contains the installed NOdeJS packages, these packages act as libraries that extend the capabilities of NodeJS
 
 ## Differences between NodeJS and the Browser:
-<div><img scr=""></div>
+<img scr="https://github.com/Eng-YasminKotb/NodeJS_Level1/assets/122429943/2fee9112-1c75-4c8a-ad8e-9d5c29844be5" width="300">
+
 
 
 
