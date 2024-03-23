@@ -16,7 +16,44 @@
 - package.json file is a simple JSON text dile that defines the module including dependencies.
 - can contain a number of different directives to tell the Node Package Manager how to hadle the module.
 ##### Wait!! what is Node Package manager??!
-- it is a command line utility allows yo to find, install, remove, publish modules
+- it is a command-line utility allows yo to find, install, remove, publish modules
 
   
-## What is package.json?
+## What is NodeJS modules?
+
+  #### Types:
+1- Core module [built-in module]
+
+2- Local modules
+
+3- Third-Party modules
+
+#### Keyword to use the module is--> 'require':
+
+## Dealing with fileSystem?
+##### The following code will return all files existing in the folder
+
+```
+const fs=require('fs');
+
+const folderPath=" ";
+                                       //write your folder path
+fs.readdir(folderPath,(err,files)=>{
+
+console.log("files : ",files);
+                                      //it will return all files existing in the folder
+})
+```
+##### The following code will return the content of a specific file int the folder
+```
+const fs=require('fs');
+
+const filePath=" ";          //write your file path
+                                       
+fs.readFile(filerPath,'utf-8',(err,content)=>{       //you can remove 'utf-8' as it the default
+
+console.log("Content : ",content);
+                                     
+})
+```
+###### Note: Asynchronous // callback function   'logic!'
