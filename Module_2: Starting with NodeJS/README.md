@@ -53,7 +53,19 @@ const filePath=" ";          //write your file path
 fs.readFile(filerPath,'utf-8',(err,content)=>{       //you can remove 'utf-8' as it the default
 
 console.log("Content : ",content);
-                                     
+
+## Setps to Create NodeJS project:                                   
 })
 ```
 ###### Note: Asynchronous // callback function   'logic!'
+
+
+## Create and exports your owned modules:
+- create a module--->simply require to create a file 
+- exports a funs inside the module--> exports.[fun_Name]=[fun_Name]
+- imports as we discussed:
+  
+       1- just use the key word 'require' and assign it to a variable
+  
+       2- then write the modulename. and you will get a list of fund that exsits oready in the module.
+    
