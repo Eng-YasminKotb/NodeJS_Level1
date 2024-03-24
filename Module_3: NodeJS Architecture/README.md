@@ -8,4 +8,6 @@
   - instead of excuting all the work for each request on individual threads, work is added to an event queue and then 
     picked up by a single thread runnign an event loop.
  ### Thread Model:
+  ![DataBase Design(1)](https://github.com/Eng-YasminKotb/NodeJS_Level1/assets/122429943/bd616967-5530-4882-9f63-658dc6ac2c25)
 
+ ### figure that show nodeJS architecture
