@@ -66,3 +66,39 @@
     - .once()             --->listen to data on registered event only once
     - .addListener()      --->it checks if the listener is registeed for an event
     - .removeListener()   --->it removes the listener for an event
+    
+ ####Steps of emitter:
+ 
+ 1- import events module
+ 
+ 2- create an object of it
+ 
+ 3- listen
+ 
+ 4- emit your event
+ 
+```
+var evnts= require('events');
+var eventEmitter= new events.EventEmitter();
+
+eventEmitter.on('print', function(data){
+console.log("printing..................."+ data)})
+
+eventEmitter.emit('print');
+```
+
+## Important interview questions on the last 3 modules?
+
+ - What is NodeJS? make a discussion of event driven module
+
+ - What NodeJS used For?
+
+ - What is package JSON?
+
+- What is Node Package manager?
+
+- How the node  working?  make a discussion of [event driven module-Event loop-thread pool]
+
+- different between threaded model  and  event driven model
+
+- deffernt between blocking and non blocking
