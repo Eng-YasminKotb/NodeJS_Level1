@@ -8,7 +8,7 @@
  - is a protocol which allows the fetching of resourses, such as HTML documents
  - It is the foundation of any [data exchange] on the web and it it a client server protocol, which means requests are initiated by the recipient,usually the Web browser.
 
-## Implementing HTTP Services in NodeJS"
+## Implementing HTTP Services in NodeJS: 
 - One of the most important aspects of NodeJS is the ability to quickly implements 
   HTTP and HTTPS servers and services.
 - NodeJS provides the http and https modules to do most everything you need from an HTTP and HTTPS
@@ -132,3 +132,11 @@
     - allows you define your parameters by name using `<param_name>` within the route path portion for tha route
     - better methode to use than regex
     - EX:`: /user/:useld  
+## Implementing HTTP Services in NodeJSWhat is controller in NodeJS:
+  **Routes**
+   -to forword the supported reqest(and any information encoded in request URLs) to teh appropriate controller functions
+   **Controller**
+   -functions to get the requested data from the modules, create an HTML page displaying the data, and return it to the user to view in the browser.
+   **Views**
+   -used by the controllers to render the data.
+   
