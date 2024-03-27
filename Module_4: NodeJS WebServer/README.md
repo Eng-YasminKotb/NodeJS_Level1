@@ -81,7 +81,20 @@
 - The data comes in the form of **text**, **JSON strings**, **binary buffers**, and **data streams**.
 - For that reason, NodeJS has many mechanisms built in to support handling the data from system to system
 - One of the most common data types that you work with when implementing NodeJs web applications and services is JSON (JavaScript Object Notation)
-`JSON` : is a light weight method to convert JavaScript objects into a string form (which is Known as `` ) then back again (which is Known as `` )
+`JSON` : is a light weight method to convert JavaScript objects into a string form (which is Known as `Serializing` ) then back again (which is Known as `Serializing` )
 
   ### Advantages of JSON over XML:
-  1-
+  1- JSON is much more efficient and takes up fewer characters.
+  
+  2- Serializing/deSerializing JSON is faster than XML because it is simplier syntax.
+  
+  3- JSON is easier to read from a developer's perspective because it is similar to JavaScript syntax.
+  `node`: The only reasons you might wanna to use XML over JSON are for complex objects.
+  
+     | Convert JSON to JS Object  | Convert JS object to JSON  |
+     |:---------------------------|:---------------------------|
+     | JSON.parse(string)         | JSON.stringify(text)       |
+
+* the first to convert a string that is properly formatted with JSON into a javaScript object.
+ the second to convert a javaScript object into a properly formatted JSON string.
+  
