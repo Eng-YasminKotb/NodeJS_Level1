@@ -38,3 +38,21 @@
   - is created internally when you call http.request(options, callback).
   - Use Request object to initiate, monitor, and handle the response from the server.
   - It implements a writable stream, so it provides all the functionality of a writable stream object.
+
+
+
+
+## Understanding HTTP server in NodeJS :
+ - It provides an underlying socket that listens on a port and handels receiving requests and then sends responses 
+   out to client connection.
+ - The server object implement EventEmitter and emits the events
+ - To stat the HTTP server, you need to first create a Server Object using the `createServer()`.
+ - Once you havve created the server object ,you can begin listening on it by calling the listen() method on the 
+   Server object.
+   #### Steps to create a HTTP Server:
+   
+   1- import the module by requiring it.
+   
+   2- use  `createServer()` function.
+   
+   3- listen on it.
