@@ -104,3 +104,19 @@
 
 - What are advantages of JSON over XML.
 - What is `Serializing` the and the `deSerializing`, how to applicate them
+
+## Routing in NodeJS:
+  #### There are two parts when defining the route
+  1) HTTP request moethod (**get**, **put**, **head**, **post**, **delete**)
+  2) The path specified in the URL.
+
+ #### The **four** parameters Types in Rouring:
+ 
+|                   Query string                  |               Post params             |                           Regex                     | Defined parameter (path variable)|
+|:------------------------------------------------|:--------------------------------------|:----------------------------------------------------|--------------------------------  |
+| most common method for implementing parameters  | Secured                               | Use a regex expression to match patterns            | allows you define your parameters| 
+|                                                 |                                       |   by name within the rout path                      |  by name within the rout path    |
+| The simplest method to add parameters to a route| Used with forms [Login, Save, Updata] | Doesn't follow Standared/formatting for the psth    |  better methode to use than regex|          
+| The URLs can be come long and convolutted       |                                       | Rarly used                                          |  `EX:`: /user/:useld            |
+| Not secured                                     |                                       | `EX:` /book/:<chapter>:<page>== (/^\/book\/(\w+)?s/)|      | Turing Machine            |
+| `EX:` /find?author=Brad&title=Node              |                                       |                                                     |      | Turing Machine            |
