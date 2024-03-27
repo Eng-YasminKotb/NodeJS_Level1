@@ -111,24 +111,24 @@
   2) The path specified in the URL.
 
  #### The **four** parameters Types in Rouring:
-   1) Query string                                    
+   1) **Query string**  (uses the standard ?key=value&key=value ...HTTP query string after tha path in the URL)                                
       - most common method for implementing parameters
       - The simplest method to add parameters to a route
       - The URLs can be come long and convoluted
       - Not secured
       - `EX:` /find?author=Brad&title=Node
   
- 3) Params
+ 3) **Params** (when implementing a web for or other POST request,you can pass parameters in the body of the request)
     - Secured
     - Used with forms [Login, Save, Updata]
      
- 3) Regex
-    - Use a regex expression to match patterns
+ 3) **Regex***
+    - Use a regex expression to match patterns as the path portion for tha route
     - Doesn't follow Standared/formatting for the path
     - Rarly used
     - `EX:` /book/:<chapter>:<page>== (/^\/book\/(\w+)?s/
      
- 4) Defined parameter (path variable)
-    - allows you define your parameters by name within the route path.
+ 4) **Defined parameter (path variable)**
+    - allows you define your parameters by name using `<param_name>` within the route path portion for tha route
     - better methode to use than regex
     - EX:`: /user/:useld  
