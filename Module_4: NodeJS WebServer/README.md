@@ -111,12 +111,24 @@
   2) The path specified in the URL.
 
  #### The **four** parameters Types in Rouring:
- 
-|                   Query string                  |               Post params             |                           Regex                     | Defined parameter (path variable)|
-|:------------------------------------------------|:--------------------------------------|:----------------------------------------------------|--------------------------------  |
-| most common method for implementing parameters  | Secured                               | Use a regex expression to match patterns            | allows you define your parameters| 
-|                                                 |                                       |   by name within the rout path                      |  by name within the rout path    |
-| The simplest method to add parameters to a route| Used with forms [Login, Save, Updata] | Doesn't follow Standared/formatting for the psth    |  better methode to use than regex|          
-| The URLs can be come long and convolutted       |                                       | Rarly used                                          |  `EX:`: /user/:useld            |
-| Not secured                                     |                                       | `EX:` /book/:<chapter>:<page>== (/^\/book\/(\w+)?s/)|      | Turing Machine            |
-| `EX:` /find?author=Brad&title=Node              |                                       |                                                     |      | Turing Machine            |
+   1) Query string                                    
+      - most common method for implementing parameters
+      - The simplest method to add parameters to a route
+      - The URLs can be come long and convoluted
+      - Not secured
+      - `EX:` /find?author=Brad&title=Node
+  
+ 3) Params
+    - Secured
+    - Used with forms [Login, Save, Updata]
+     
+ 3) Regex
+    - Use a regex expression to match patterns
+    - Doesn't follow Standared/formatting for the path
+    - Rarly used
+    - `EX:` /book/:<chapter>:<page>== (/^\/book\/(\w+)?s/
+     
+ 4) Defined parameter (path variable)
+    - allows you define your parameters by name within the route path.
+    - better methode to use than regex
+    - EX:`: /user/:useld  
