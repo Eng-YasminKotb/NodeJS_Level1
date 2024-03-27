@@ -56,3 +56,32 @@
    2- use  `createServer()` function.
    
    3- listen on it.
+   **EX:**
+   ##### to run this code :
+   1- node (file name)
+   2- on your browser write `localhost:protnumber`  ///write your port 
+   ```javascript
+   const http =require('http')
+
+   const server = http.createServer((req,res)=>{
+    res.end("Hello!!");
+    })
+
+    server.on(('clientError'),(err, socket)=>{
+    socket.end('HTTP/1.1 400 Bad Request\r\n\n\n');
+
+   });
+   
+   server.listen(3000);
+   ```
+   
+## Handeling Date I/O in NodeJS:
+
+- Most active web applications and services have a lot of data flowing through them
+- The data comes in the form of **text**, **JSON strings**, **binary buffers**, and **data streams**.
+- For that reason, NodeJS has many mechanisms built in to support handling the data from system to system
+- One of the most common data types that you work with when implementing NodeJs web applications and services is JSON (JavaScript Object Notation)
+`JSON` : is a light weight method to convert JavaScript objects into a string form (which is Known as `` ) then back again (which is Known as `` )
+
+  ### Advantages of JSON over XML:
+  1-
