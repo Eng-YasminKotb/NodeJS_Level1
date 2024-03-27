@@ -84,6 +84,7 @@
 `JSON` : is a light weight method to convert JavaScript objects into a string form (which is Known as `Serializing` ) then back again (which is Known as `Serializing` )
 
   ### Advantages of JSON over XML:
+  
   1- JSON is much more efficient and takes up fewer characters.
   
   2- Serializing/deSerializing JSON is faster than XML because it is simplier syntax.
@@ -96,5 +97,10 @@
      | JSON.parse(string)         | JSON.stringify(text)       |
 
 * the first to convert a string that is properly formatted with JSON into a javaScript object.
- the second to convert a javaScript object into a properly formatted JSON string.
   
+* the second to convert a javaScript object into a properly formatted JSON string.
+  
+#### Some questitions:
+
+- What are advantages of JSON over XML.
+- What is `Serializing` the and the `deSerializing`, how to applicate them
