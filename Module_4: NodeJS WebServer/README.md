@@ -122,7 +122,7 @@
     - Secured
     - Used with forms [Login, Save, Updata]
      
- 3) **Regex***
+ 3) **Regex**
     - Use a regex expression to match patterns as the path portion for tha route
     - Doesn't follow Standared/formatting for the path
     - Rarly used
@@ -141,4 +141,5 @@
    
   `Views:` used by the controllers to render the data.
    
-   
+ ![controller1](https://github.com/Eng-YasminKotb/NodeJS_Level1/assets/122429943/0f9b403e-dd83-424f-b04b-882e29de93a5)
+
