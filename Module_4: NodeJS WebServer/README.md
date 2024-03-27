@@ -131,12 +131,20 @@
  4) **Defined parameter (path variable)**
     - allows you define your parameters by name using `<param_name>` within the route path portion for tha route
     - better methode to use than regex
-    - EX:`: /user/:useld  
+    - EX:`: /user/:useld
+      
 ## Implementing HTTP Services in NodeJSWhat is controller in NodeJS:
+
   **Routes**
+  
    -to forword the supported reqest(and any information encoded in request URLs) to teh appropriate controller functions
+   
    **Controller**
+   
    -functions to get the requested data from the modules, create an HTML page displaying the data, and return it to the user to view in the browser.
+   
    **Views**
+   
    -used by the controllers to render the data.
+   
    
