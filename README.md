@@ -7,7 +7,7 @@ This is a summarization of NodeJS_Level1 Course
 ######  2-Starting with NodeJs
 ######  3-NodeJS Architecture
 ######  4-NodeJs webserver
-######  5-NodeJs and middleexpress
+######  5-NodeJs and Middleware Express
 ######  6-Practice Project-Notes App
 ######  7-Postgresql DB
 ######  8-Practice Project-Books Project 
