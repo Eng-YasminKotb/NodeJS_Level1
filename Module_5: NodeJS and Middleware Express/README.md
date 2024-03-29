@@ -40,9 +40,10 @@ var app =express()
 
 ## NodeJS Application Architecture:
 files for:
-           - routes
-           - controller
-           - database 
+- router
+- controller
+- database
+  
 
 
 
