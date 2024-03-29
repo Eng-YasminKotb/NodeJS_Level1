@@ -29,3 +29,12 @@ var app =express()
   - **BodyParser**: parses the body data of POST requests into the req.body property
   - **Query**: converts the query string to a JavaScript object and stores it as req.query
   - **Compress**: provides Gzip compress support for large responses to the client
+
+## Setting up the express Server:
+
+   1) installed babel-polyfill `for` recognize async/await and Promise.
+   2) Adding cros middleware `for` parsing URL 
+   3) Adding urlencoded as a middleware `for` parsing JSON.
+   4) versioned our API `ex:` /api/v1
+   5) listened to our port so we can start the server.
+   
