@@ -37,4 +37,12 @@ var app =express()
    3) Adding urlencoded as a middleware `for` parsing JSON.
    4) versioned our API `ex:` /api/v1
    5) listened to our port so we can start the server.
-   
+
+## NodeJS Application Architecture:
+files for:
+           - routes
+           - controller
+           - database 
+
+
+
