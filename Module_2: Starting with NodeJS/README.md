@@ -65,7 +65,7 @@ console.log("Content : ",content);
 - exports a funs inside the module--> exports.[fun_Name]=[fun_Name]
 - imports as we discussed:
   
-       1) just use the key word 'require' and assign it to a variable
+       1) just use the keyword require and assign it to a variable.
   
-       2) then write the `modulename.` and you will get a list of functions that exsits oready in your custom module.
+       2) then write the modulename and you will get a list of functions that exsits oready in your custom module.
     
