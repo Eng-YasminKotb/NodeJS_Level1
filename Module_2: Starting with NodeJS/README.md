@@ -61,7 +61,7 @@ console.log("Content : ",content);
 
 
 ## Create and exports your owned modules (custom modules):
-- create a module--->simply create a file 
+- create a module--->simply create a file
 - exports a funs inside the module--> exports.[fun_Name]=[fun_Name]
 - imports as we discussed:
   
