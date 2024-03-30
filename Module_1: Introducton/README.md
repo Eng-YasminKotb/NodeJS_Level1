@@ -9,25 +9,25 @@
 instead of blocking the thread and wasting CPU cycles waiting, NodeJs will resume the operations when the respone 
 comes back.
 
-##  Who use the NOdeJS ?
+##  Who use the NodeJS ?
 - Yahoo
 - LinkedIn
 - eBay
 - Microsoft
 - New York Times
 
-##  Who use the NOdeJS ? 
-- Web services APIs such as REST
+##  What NodeJS used for ? 
+- Web services APIs `such as` REST
 - Real-time multiplayer games
 - Web-based applications
-- 
+  
 ##  Install NodeJS ? 
 [link to install](https://nodejs.org/en)-download NodeJS
 
 ##  NodeJS Locations ? 
-- node-> This file starts a NodeJS JavaScript VM
-- npm-> This command is used to manage the NodeJS packages
-- node_module-> This folder contains the installed NOdeJS packages, these packages act as libraries that extend the capabilities of NodeJS
+- `node` This file starts a NodeJS JavaScript VM.
+- `npm` This command is used to manage the NodeJS packages.
+- `node_module` This folder contains the installed NodeJS packages, these packages act as libraries that extend the capabilities of NodeJS.
 
 ## Differences between NodeJS and the Browser:
 ![DataBase Design](https://github.com/Eng-YasminKotb/NodeJS_Level1/assets/122429943/4aa9b416-d5a6-48e2-bc3d-be17e848d012)
