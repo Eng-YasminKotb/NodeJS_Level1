@@ -61,8 +61,8 @@ console.log("Content : ",content);
 
 
 ## Create and exports your owned modules (custom modules):
-- create a module--->simply create a file
-- exports a funs inside the module--> exports.[fun_Name]=[fun_Name]
+- create a module---> simply create a file
+- exports a funs inside the module--> `exports.[fun_Name]=[fun_Name]`
 - imports as we discussed:
   
        1) just use the keyword require and assign it to a variable.
