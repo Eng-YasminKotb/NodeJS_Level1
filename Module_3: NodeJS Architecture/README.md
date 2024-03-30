@@ -12,11 +12,7 @@
   ![DataBase Design(1)](https://github.com/Eng-YasminKotb/NodeJS_Level1/assets/122429943/bd616967-5530-4882-9f63-658dc6ac2c25)
 
 
-## Figure that show nodeJS architecture
- 
-  ![NWAGFGdrawio](https://github.com/Eng-YasminKotb/NodeJS_Level1/assets/122429943/f7455b07-67e0-45b5-ba1b-77a19e753686)
-
-##What is NodeJS Blocking I/O:
+## What is NodeJS Blocking I/O:
  - this blocking process stops the excution of the current thread and waits for a response before continuing
  - NodeJS using the event callbacks until you run into the problem of functions that block waiting for I/O.
    #### Examples of blocking I/o:
@@ -29,24 +25,21 @@
    Therefore, any requests that performed on a diffferent thread in the backgroung
 
 ## The difference between blocking and non-blocking:
-
-    - Blocking->is when the excution of additional javaScript in the NodeJS process must wait until a non 
+ - `Blocking` is when the excution of additional javaScript in the NodeJS process must wait until a non 
      JavaScript operation completes
      
-     EX:
-     -Synchronous methods
-
-     - Non-Blocking->is when the excution of additional javaScript in the NodeJS process dosen't wait and continue 
+     `EX:` Synchronous methods
+   
+ - `Non-Blocking` is when the excution of additional javaScript in the NodeJS process dosen't wait and continue 
        processing. 
                
-     EX:
-     ASynchronous methods
+     `EX:` ASynchronous methods
 
      
   ## What is nodeJS event-Emmiter:
   
-     - NodeJS allows us to create and handle custom events easily by using events module
-     - These Event Module includes EventEmitter class which can be used to raise and handle custom events
+     - NodeJS allows us to create and handle custom events easily by using events module.
+     - These Event Module includes `EventEmitter class` which can be used to raise and handle custom events.
 
      
    ### How can we do that ?
@@ -67,7 +60,7 @@
     - .addListener()      --->it checks if the listener is registeed for an event
     - .removeListener()   --->it removes the listener for an event
     
- ####Steps of emitter:
+ #### Steps of emitter:
  
  1- import events module
  
@@ -76,7 +69,8 @@
  3- listen
  
  4- emit your event
- 
+
+ `EX:`
 ```
 var evnts= require('events');
 var eventEmitter= new events.EventEmitter();
