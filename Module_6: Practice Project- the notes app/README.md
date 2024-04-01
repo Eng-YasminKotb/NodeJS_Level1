@@ -1,5 +1,9 @@
 ## 6.1 Introduction 
-
+  - Setup the project Structure for Note application:
+    1)setup project (create folder)
+    2) npm init from cmd
+    3) add dependencies (express, bable, cors, body-parser)
+    
 
 
 
